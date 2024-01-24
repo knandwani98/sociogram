@@ -1,0 +1,12 @@
+{
+  "sidebar": [
+    { "label": "Home", "path": "/", "icon": "" },
+    { "label": "Search", "path": "/", "icon": "" },
+    { "label": "Explore", "path": "/", "icon": "" },
+    { "label": "Reels", "path": "/", "icon": "" },
+    { "label": "Messages", "path": "/", "icon": "" },
+    { "label": "Notifications", "path": "/", "icon": "" },
+    { "label": "Create", "path": "/", "icon": "" },
+    { "label": "Profile", "path": "/", "icon": "" }
+  ]
+}
