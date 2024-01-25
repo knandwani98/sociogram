@@ -1,0 +1,16 @@
+{
+  "sidebar": [
+    { "label": "Home", "path": "/", "icon": "IoMdHome" },
+    { "label": "Search", "path": "/", "icon": "CiSearch" },
+    { "label": "Explore", "path": "/", "icon": "MdOutlineExplore" },
+    { "label": "Reels", "path": "/", "icon": "FaInstagram" },
+    { "label": "Messages", "path": "/", "icon": "RiMessengerLine" },
+    { "label": "Notifications", "path": "/", "icon": "IoIosHeartEmpty" },
+    { "label": "Create", "path": "/", "icon": "TbSquareRoundedPlus" },
+    { "label": "Settings", "path": "/", "icon": "CiSettings" },
+    { "label": "Your Activity", "path": "/", "icon": "LuActivitySquare" },
+    { "label": "Saved", "path": "/", "icon": "LuActivitySquare" },
+    { "label": "Switch appearance", "path": "/", "icon": "LuActivitySquare" },
+    { "label": "Report a problem", "path": "/", "icon": "LuActivitySquare" }
+  ]
+}
