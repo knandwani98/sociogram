@@ -2,24 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --side: 220px;
+}
+
 body {
-  background: #000;
+  background: palevioletred;
   color: white;
+  height: 100dvh;
+  position: relative;
 }
 
 .sidebar {
-  position: fixed;
   height: 100dvh;
-  width: 300px;
+  background-color: black;
+  width: var(--side);
+  position: fixed;
   top: 0;
   left: 0;
-  border-right: 1px solid gray;
+  bottom: 0;
 }
 
 .main {
-  position: fixed;
-  height: 100dvh;
-  width: calc(100vw - 300px);
-  top: 0;
-  left: 300px;
+  width: calc(100vw - var(--side));
+  margin-left: var(--side);
+  background-color: black;
+  min-height: 100dvh;
 }
